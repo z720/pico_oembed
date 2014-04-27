@@ -1,3 +1,2 @@
 test/cache/
-!test/cache/.empty
 *.lock
