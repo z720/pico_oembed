@@ -3,16 +3,19 @@
     "type": "library",
     "description": "oEmbed Pico Plugin",
     "homepage": "http://z720.net/pico/oembed",
-		"version": "0.1",
+    "version": "0.1.1",
     "authors": [
         {
             "name": "Sebastien Erard",
             "email": "blog@z720.net"
         }
     ],
-		"require": {
-				"fg/essence": "2.4"
-		},
+    "autoload": {
+      "classmap": [ "Pico_oEmbed.php" ]
+    },
+    "require": {
+        "fg/essence": "2.4"
+    },
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
     }
